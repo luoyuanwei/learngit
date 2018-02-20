@@ -33,3 +33,6 @@ Git学习笔记
   git branch						查看当前分支
   git merge <name>					将分支合并到master分支上，合并指定分支到当前分支
   git branch -d <name>				删除指定分支
+  git log --graph --pretty=oneline --abbrev-commit	查看分支合并情况
+  git status	查看修改状态，手动解决冲突再提交（解决冲突的办法）
+  
