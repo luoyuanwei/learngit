@@ -22,4 +22,12 @@ Git学习笔记
 
 4、远程仓库
   ssh-keygen -t rsa -C "email"		生成秘钥
-  
+  git push -u origin master			把本地库内容推送到远程（首次推送加“-u”）
+  git clone 远程地址				克隆项目
+
+5、分支管理
+  HEAD：指向当前分支
+  master：指向提交（主分支）
+  git checkout dev				创建dev分支
+  git checkout -b dev			创建并且换到dev分支
+  git branch					查看当前分支
