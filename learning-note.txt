@@ -28,6 +28,8 @@ Git学习笔记
 5、分支管理
   HEAD：指向当前分支
   master：指向提交（主分支）
-  git checkout dev				创建dev分支
-  git checkout -b dev			创建并且换到dev分支
-  git branch					查看当前分支
+  git checkout <name>				创建分支
+  git checkout -b <name>			创建并且换到分支
+  git branch						查看当前分支
+  git merge <name>					将分支合并到master分支上，合并指定分支到当前分支
+  git branch -d <name>				删除指定分支
